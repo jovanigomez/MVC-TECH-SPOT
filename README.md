@@ -1,4 +1,4 @@
-# MVC-TECH-SPOT
+# MVC-Tech-SPOT
 
 ## User Story
 ```

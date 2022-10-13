@@ -1,11 +1,11 @@
 {
   "name": "mvc-tech-spot",
   "version": "1.0.0",
-  "description": "A Tech Blog",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "seed": "node ./seeds/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/jovanigomez/MVC-TECH-SPOT/issues"
   },
-  "homepage": "https://github.com/jovanigomez/MVC-TECH-SPOT#readme"
+  "homepage": "https://github.com/jovanigomez/MVC-TECH-SPOT#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.0",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  }
 }
+  
